@@ -1,0 +1,151 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #283d4a;
+}
+/* header */
+
+header {
+  background-color: #2d4250;
+  position: relative;
+  padding: 2.8em;
+}
+
+header .logo {
+  max-width: 200px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+header .logo.primary {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .logo.secondary {
+  left: 5%;
+}
+
+/* Control Bar */
+
+.control-bar {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.css-rgoaa1-MuiToggleButtonGroup-root .MuiToggleButtonGroup-grouped {
+  color: white;
+  border-color: #14aff1;
+  padding: 0.4em 2em;
+}
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  color: #ffffff !important;
+  background-color: #14aff1 !important;
+}
+.search-bar {
+  font-size: 20px;
+  padding: 0.3em;
+  border-radius: 5px;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  color: aliceblue;
+}
+
+.actionbuttongroup button {
+  color: white;
+  border-color: #14aff1;
+  padding: 0.4em 4em;
+}
+
+/* Popup */
+
+.css-cyxlny-MuiPaper-root-MuiDialog-paper {
+  background-color: #2a3e4c !important;
+}
+.css-hlj6pa-MuiDialogActions-root {
+  padding-left: 16px !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: #ffffff !important;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  background-color: #2a3e4c !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: #ffffff !important;
+}
+
+.MuiFilledInput-root {
+  background-color: #ffffff !important;
+}
+
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root {
+  color: #ffffff !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: #ffffff !important;
+}
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #ffffff !important;
+}
+
+.MuiCalendarPicker-root {
+  line-height: 2.8em !important;
+}
+.css-qfso29-MuiTypography-root-MuiDialogContentText-root {
+  color: #ffffff !important;
+}
+
+/* DataGrid */
+
+.css-3ihp42-MuiDataGrid-root .MuiDataGrid-columnHeader,
+.css-3ihp42-MuiDataGrid-root .MuiDataGrid-cell {
+  color: azure;
+}
+
+.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar {
+  color: azure;
+}
+
+.css-de9k3v-MuiDataGrid-selectedRowCount {
+  color: azure;
+}
+.css-3ihp42-MuiDataGrid-root {
+  margin: 0 20px;
+}
+.MuiDataGrid-root {
+  color: azure !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: azure !important;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  bottom: 0;
+  background: #2d4250;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.footer a {
+  color: #0f44f0;
+}
